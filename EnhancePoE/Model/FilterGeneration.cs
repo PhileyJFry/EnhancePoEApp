@@ -160,6 +160,7 @@ namespace EnhancePoE.Model
             if (Properties.Settings.Default.LootfilterIcons)
             {
                 result = result + "MinimapIcon 2 White Star" + nl + tab;
+                result = result + "PlayAlertSound 3 300" + nl + tab;
             }
 
             return result;
